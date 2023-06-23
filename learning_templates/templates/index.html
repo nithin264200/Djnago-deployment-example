@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% block temp_inherit %}
+    <h1>Welcome to index page!</h1>
+    <h1>{{ text|upper }}</h1>
+    <h1>{{ number|add:"200" }}</h1>
+{% endblock  %}
+    {% comment %} <h1>Welcome to index page!</h1> {% endcomment %}
